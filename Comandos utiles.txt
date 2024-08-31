@@ -1,0 +1,17 @@
+# Crear un entorno virtual
+python -m venv venv
+
+# Activar el entorno virtual
+source venv/bin/activate # Para Linux
+venv\Scripts\activate.bat # Para CMD
+venv\Scripts\Activate.ps1 # Para PowerShell
+
+# Ver las librerias instaladas
+pip freeze
+
+# Guardar librerias en requirements.txt
+pip freeze > requirements.txt
+
+
+
+Link tutorial estudio: https://www.youtube.com/playlist?list=PLYL9hbiLp7qIHYIxvUxGMlmkxLre02D7Y

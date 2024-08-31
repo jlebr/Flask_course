@@ -1,0 +1,13 @@
+{% if user_ip %}
+    <h2>"Hola tu IP es: {{user_ip}}"</h2>
+
+{% else %}
+    <a href="{{ url_for('index')}}"> Crear Cookie</a>
+
+{% endif %}
+
+<ul>
+   {% for item in items %}
+   <li> {{item}} </li>
+   {% endfor %}
+</ul>
