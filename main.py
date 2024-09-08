@@ -1,7 +1,7 @@
 from flask import Flask, request, make_response, redirect, render_template
 
 app = Flask(__name__)
-items =["ITEM1", "ITEM2", "ITEM3", "ITEM4"]
+items =["arroz", "huevos", "cafe", "leche"]
 
 @app.route("/index")
 def index():
@@ -21,4 +21,4 @@ def show_information():
     }
     #return render_template("/ip_information.html", user_ip=user_ip, )
     return render_template("/ip_information.html", **context )
-app.run(host='0.0.0.0', port=81, debug=False) # debug=True es para debuguear el codigo 
+app.run(host='0.0.0.0', port=81, debug=True) # debug=True es para debuguear el codigo 
