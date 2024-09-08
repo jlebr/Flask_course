@@ -12,6 +12,7 @@ pip freeze
 # Guardar librerias en requirements.txt
 pip freeze > requirements.txt
 
-
+# Comando para instalar bootstrap
+pip install flask-bootstrap
 
 Link tutorial estudio: https://www.youtube.com/playlist?list=PLYL9hbiLp7qIHYIxvUxGMlmkxLre02D7Y
